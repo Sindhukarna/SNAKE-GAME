@@ -1,0 +1,6 @@
+{
+  "name": "CyberSnake",
+  "description": "A dark neon aesthetic Snake game combined with a music player featuring dummy AI-generated tracks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  .neon-text-green {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0fa, 0 0 40px #0fa, 0 0 80px #0fa;
+  }
+  .neon-text-pink {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f0a, 0 0 40px #f0a, 0 0 80px #f0a;
+  }
+  .neon-text-cyan {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
+  }
+  .neon-box-green {
+    box-shadow: 0 0 5px #0fa, 0 0 20px #0fa inset;
+    border: 1px solid #0fa;
+  }
+  .neon-box-pink {
+    box-shadow: 0 0 5px #f0a, 0 0 20px #f0a inset;
+    border: 1px solid #f0a;
+  }
+  .neon-box-cyan {
+    box-shadow: 0 0 5px #0ff, 0 0 20px #0ff inset;
+    border: 1px solid #0ff;
+  }
+}
+
+body {
+  background-color: #050505;
+  color: #fff;
+  font-family: var(--font-sans);
+  overflow: hidden;
+}
